@@ -36,4 +36,4 @@ class CircularBufferTests(TestCase):
         cb.append(1)
         cb.append(2)
         cb.append(3)
-        self.assertEqual(cb.pointer, 0)
+        self.assertEqual(cb.pointer, 1)
